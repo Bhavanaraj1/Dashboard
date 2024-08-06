@@ -1,0 +1,94 @@
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px; 
+    background-color: black; 
+    width: 100%;
+    
+}
+.dashboard-header {
+    text-align:start;
+    padding: 0px 30px;
+    color:aliceblue
+}
+
+.content {
+    display: flex;
+    padding: 3px;
+    color: white; 
+}
+
+
+
+.left-section {
+    width:60%;
+    display: flex;
+    flex-direction:column;
+    padding: 0px 20px 0px 40px;
+    
+}
+
+
+.activity-bar {
+    background-color: #1d1b1b;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    max-height: 16%;
+    box-sizing: border-box ;
+}
+.activity-bar h2{
+    margin-top: -2px;
+}
+
+.recent-orders {
+    background-color:#1d1b1b;
+    border-radius: 5px;
+    padding:10px 10px;
+    height: 18.5%;
+}
+.recent-orders h2{
+    margin-top: -10px;
+}
+
+.right-section {
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    
+}
+
+.right-card {
+    background-color: #1d1b1b;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 8%;
+}
+
+.right-box {
+    background-color: #1d1b1b;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 12%;
+}
+
+.customer-feedback {
+    background-color: #1d1b1b;
+    padding: 20px;
+    border-radius: 5px;
+    height:15%;
+}
+.customer-feedback h2{
+    margin-top: 1px;
+}
+
+
+
+
+ 
